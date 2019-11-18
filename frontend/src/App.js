@@ -115,7 +115,7 @@ const App = () => {
               wsSend('ps')
             }}
             disabled={!state.loaded || isRunning}
-          >Avvia</button>
+          >Start</button>
           <button
             type="button"
             className="p-2 btn btn-danger mx-3"
