@@ -1,0 +1,4 @@
+scripts:
+  count:
+    command: "../count.sh"
+port: 3001
