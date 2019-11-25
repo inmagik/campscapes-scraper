@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@inmagik/websocket-hooks": "^0.3.2",
     "bootstrap": "^4.3.1",

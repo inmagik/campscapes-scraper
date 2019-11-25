@@ -1,2 +1,2 @@
-export const WSURL = 'wss://campscapes.inmagik.com/ws'
+export const WSURL = `ws://${window.location.hostname}/campscapes/ws/`
 export const COMMAND_NAME = 'scrape'

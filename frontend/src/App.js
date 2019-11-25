@@ -102,7 +102,7 @@ const App = () => {
 
   return (
     <div className="d-flex flex-column align-items-stretch justify-content-between w-100 h-100 p-2">
-      <h1>Campscapes Scraper</h1>
+      <h1 className="text-center">Campscapes Scraper</h1>
       <div className="flex-1 d-flex flex-column align-items-center justify-content-center">
         <Log log={state.log} />
         <div className="d-flex flex-row justify-content-center">
@@ -115,7 +115,7 @@ const App = () => {
               wsSend('ps')
             }}
             disabled={!state.loaded || isRunning}
-          >Avvia</button>
+          >Run</button>
           <button
             type="button"
             className="p-2 btn btn-danger mx-3"
